@@ -5,11 +5,11 @@ Usage: python scheduler.py
 
 Info:
   The jobs file contains a list of jobs to be run in the following format:
-    start_minute start_hour job_name dependancy command
+    <start_minute> <start_hour> <job_name> <dependancy> <command>
     
   Start minute and start hour represent the time of day to run the job (in 24hr time format).
   Job name can be any text.
-  Dependancy must match another jobs job_name.
+  Dependancy must match another jobs <job_name>.
   Command is the command needed to run the process.
   
   
